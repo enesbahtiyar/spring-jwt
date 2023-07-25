@@ -10,7 +10,7 @@ import javax.validation.constraints.Size;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserDto
+public class RegisterRequest
 {
     @NotBlank(message = "enter first name")
     private String firstName;
